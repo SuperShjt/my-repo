@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-﻿![ASU | Home](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.001.png)
+﻿![ASU | Home](images/images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.001.png)
 
 <a name="_hlk107167839"></a>**CSE496: Graduation Project 2**
 
@@ -219,23 +219,23 @@ We have previously discussed the objectives that MyRepo tries to achieve. In the
 
 Shown in the figure below is a use-case diagram for the system:
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.003.jpeg)*Figure 1: Use Case Diagram*
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.003.jpeg)*Figure 1: Use Case Diagram*
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.002.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.002.png)
 
 
 
 Shown in the figure below is the sequence diagram for the upload and download and delete functionalities:
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.005.jpeg)*Figure 2: Sequence Diagram*
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.005.jpeg)*Figure 2: Sequence Diagram*
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.004.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.004.png)
 
 
 
 ![Graphical user interface
 
-Description automatically generated](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.006.png)
+Description automatically generated](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.006.png)
 
 `				`*Figure 3: Login/Upload Sequence Diagram*
 
@@ -256,7 +256,7 @@ Description automatically generated](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711
 
 ![Graphical user interface
 
-Description automatically generated](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.007.png)
+Description automatically generated](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.007.png)
 
 `				`*Figure 4: Login/Download, Delete Sequence Diagram*
 
@@ -267,15 +267,15 @@ Description automatically generated](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711
 
 Shown in the figure below is the flow-chart diagram for the upload and download functionalities:
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.009.jpeg)*Figure 5: Flow-Chart Diagram*
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.009.jpeg)*Figure 5: Flow-Chart Diagram*
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.008.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.008.png)
 
 Shown in the figure below is the Class diagram showing all classes in system and its communication:
 
 ![A picture containing timeline
 
-Description automatically generated](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.010.png)
+Description automatically generated](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.010.png)
 
 `				     `*Figure 6: Class Diagram*
 
@@ -286,7 +286,7 @@ Shown in the figure below is the Activity diagram showing series of actions of h
 
 ![Diagram
 
-Description automatically generated](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.011.png)
+Description automatically generated](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.011.png)
 
 *Figure 7: Activity Diagram*
 
@@ -371,8 +371,8 @@ We also want the firewall on our server to accept the incoming connections on th
 
 Now, the incoming connections to our servers will not be blocked by the firewall
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.013.png)*Figure 3: Port Forwarding Settings*
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.012.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.013.png)*Figure 3: Port Forwarding Settings*
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.012.png)
 
 In the final steps of the setup, we need to create a python server that listens to incoming connections of port 23441 and serves a webpage for anyone that visits our website. We will use a dummy page for the time being. This is our server code (myrepo\_server.py):    
 
@@ -414,7 +414,7 @@ As we are in the development phase, we will not purchase a Domain name to bind i
 
 This is our temporary domain for testing (this domain will change by the time of release): http://bc97-197-37-182-179.ngrok.io/
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.014.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.014.png)
 
 Our demo website is working as expected.
 
@@ -430,7 +430,7 @@ WOL command will allow us to wake up the server remotely if it was in sleep mode
 
 Note: enp0s20u1 is the ID of the server’s NIC. This is obtained by the command “**ip link”**.
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.015.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.015.png)
 
 We can confirm WOL is supported as shown, we can proceed to enable it by the following command:
 
@@ -464,7 +464,7 @@ Now, SSH should be running, and the server can receive connections. By default, 
 
 The connection is established now, and we can execute remote commands to our server as shown in the figure below. The figure shows my computer (192.168.1.6) is connecting -using the terminal- to the server and executing the command “whoami” on the server.
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.016.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.016.png)
 
 We can notice that SSH doesn’t simply allow any connection incoming on that IP and port, we have to enter the credentials of the server in order to have access to the desktop.
 
@@ -478,11 +478,11 @@ RDP has various implementations out there; we are going to use NoMachine softwar
 
 Shown below is NoMachine running on our server
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.017.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.017.png)
 
 And the below figure shows that NoMachine will listen on port 3999 for incoming connections:
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.018.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.018.png)
 
 Note: Same as SSH, the protocol doesn’t simply allow any connection incoming on that IP and port, we have to enter the credentials of the server in order to have access to the desktop.
 
@@ -491,23 +491,23 @@ This software also has many security and performance options, but we will not de
 
 To connect from any device, we will need to install NoMachine Client first and add the server’s IP (same step as SSH). As seen in the figure below, my NoMachine client added my server and is ready to connect to it.
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.019.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.019.png)
 
 To connect, I have to enter the credentials of the server.
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.020.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.020.png)
 
 Finally, here is a look at how the connection currently looks from my workstation:
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.021.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.021.png)
 
 **Step 4: Setting up the file storage system**
 
 We want to design a storage system that will handle users' uploads and downloads in an organized manner.
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.023.jpeg)*Figure 8: Storage File System*
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.023.jpeg)*Figure 8: Storage File System*
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.022.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.022.png)
 
 Shown in figure 2 is the design of our cloud storage system, where all the files reside in /srv/http/. In that directory, we have the website files that the server will serve to every visitor to the website (like index.html, style.css, script.js.. etc.), and we have a directory for each user in the system, where their uploads will be stored in, and where they will be able to download their data from. 
 
@@ -523,12 +523,12 @@ Where *user\_id* is a 4-digit number, and the random number is 16 digits and it 
 
 Shown below is an abstracted diagram of the storage system, where the server gets users' requests to view their data (through the front-end), then retrieves the files from the database and shows them to the meant user
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.025.jpeg)*Figure 9: Abstract view of file retrieval*
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.025.jpeg)*Figure 9: Abstract view of file retrieval*
 
-`	`![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.024.png)
+`	`![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.024.png)
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.027.jpeg)*Figure 10: Abstract view of server and front-end operation*
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.026.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.027.jpeg)*Figure 10: Abstract view of server and front-end operation*
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.026.png)
 
 
 
@@ -542,7 +542,7 @@ After installing Apache, We will head to “*/etc/httpd/conf/httpd.conf*” and 
 
 Now we can view the index page of Apache, this index page is located at “*/srv/http/index.html*”, and this is the location where our website will be located.
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.028.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.028.png)
 
 Also at this step MySQL was installed and initialized. Our database is not ready yet so we will refer to its documentation later in this document.
 
@@ -550,13 +550,13 @@ Finally, PHP and PHP-Apache packages were installed and configured. Now our LAMP
 
 **<?php phpinfo(); ?>**
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.029.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.029.png)
 
 **Enabling Uploading Feature**
 
 So far, our server allows users to download files but it doesn’t allow uploads. This is what we are concerned with achieving in this section. Unlike the usual way of making the upload functionality via PHP, we are going to implement it using JavaScript. The reason behind this is the fact that we want to encrypt the files first on the client side before sending them to the server. We will get to the encryption part later, but for now, the upload functionality is done using JavaScript on the client-side, and a PHP handler to receive the file on the server-side
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.030.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.030.png)
 
 we will add the uploading functionality in our index.php as well as upload.php:
 
@@ -655,11 +655,11 @@ we will add the uploading functionality in our index.php as well as upload.php:
 
 Now the uploading functionality is working. If we try to upload a file, it will get added to the “*uploads/*” directory.
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.031.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.031.png)
 
 Click “*Send File*”
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.032.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.032.png)
 
 The code is now primitive, but it is a proof of concept. Our final code will have more complicated logic, and the full code will be uploaded to the GitHub Repository.
 
@@ -673,7 +673,7 @@ Domain names are available to purchase as per ICANN (The Internet Corporation fo
 
 We choose [NameCheap](https://www.namecheap.com/) provider to purchase our domain name “myrepo.online” as well as a SSL certificate for this website (more on the SSL certificate in the upcoming sections).
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.033.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.033.png)
 
 In the figure above is our IP-Domain binding. Every entry to “[https://www.myrepo.online](https://www.myrepo.online/)” will be forwarded to our server’s public IP “41.44.91.175”, as well as a verification for the SSL in the “CNAME Record”. Any changes to this public IP takes few minutes to update globally.
 
@@ -691,21 +691,21 @@ These certificates are issued by aCertificate Authority (CA). the CA is the trus
 
 In our server, we purchased the certificate from [PositiveSSL](https://www.positivessl.com/) CA via NameCheap.
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.034.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.034.png)
 
 We can see in NameCheap’s control panel that the certificate is issued for our domain “<https://www.myrepo.online/>” and it is valid for 1 year
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.035.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.035.png)
 
 Here is the details about our server’s public key:
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.036.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.036.png)
 
 And of course we were provided by a private key in order to decrypt the traffic encrypted by the above public key.
 
 We can see that this certificate is only available to MyRepo and cannot be redirected to another website.
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.037.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.037.png)
 
 
 
@@ -713,11 +713,11 @@ Final step is to install these certificates on the server in order to enable the
 
 We first need to enable the Apache’s ssl\_module to make use of the certificates. As shown below, the module is already activated.
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.038.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.038.png)
 
 Then we will add the path of our downloaded certificates (obtained from NameCheap), and instruct ssl\_module in Apache to use them.
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.039.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.039.png)
 
 All we have to do now is to restart Apache server using the following command:
 
@@ -725,19 +725,19 @@ All we have to do now is to restart Apache server using the following command:
 
 After that, the server will be listening to traffic incoming on port **443** (HTTPS official port number), and when traffic comes to this port, it will decrypt it and forward to myrepo.
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.040.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.040.png)
 
 To verify everything is working as expected, we can visit <https://www.myrepo.online/> and check if the browser accepts the HTTPS connection. As shown in the figure below, the browser successfully accepts the secure HTTPS connection and verifies that the certificate is valid to use.
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.041.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.041.png)
 
 We can also click on the certificate to see further more details about it:
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.042.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.042.png)
 
 Extra Details on the certificate:
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.043.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.043.png)
 
 
 
@@ -763,17 +763,17 @@ What will be is requires is:
 
 Port 22 is now allowed.
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.044.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.044.png)
 
 2- Obtain credentials on the backup machine. The credentials are the host IP, username, and password of the backup user.
 
 In my case, the host was “*192.168.1.6*”, and the username is “*ahmed*”. The password was typed as well but linux terminal hides passwords by default.
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.045.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.045.png)
 
 We can now test the connection by transferring a test file. As we can see, it has been successfully transferred.
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.046.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.046.png)
 
 **Step B: Develop A Backup Script**
 
@@ -791,21 +791,21 @@ The target script will need to do the following:
 
 This is the content of the main script *backup-shell.sh*:
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.047.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.047.png)
 
 *backup-shell.sh* calls the SFTP script to perform the copy automatically without terminal interaction for entering the password:
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.048.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.048.png)
 
 Our script successfully backs up the data! All what is left now is to let this process repeat automatically. To do this, we will use the Linux’s built in command “*crontab*”.
 
 The following command will call the shell script every 3 days. This is done by typing this command in the *crontab* config file in */etc/crontab*.
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.049.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.049.png)
 
 Everything is working as expected now! Here is the result of the backup of 10<sup>th</sup> of september 2022.
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.050.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.050.png)
 # <a name="_toc107323745"></a>**Chapter 5: BACK-END**
 
 ## <a name="_toc107323746"></a>Languages used
@@ -850,7 +850,7 @@ And class diagrams and Entities diagrams, ER diagrams, Relations diagrams …etc
 ### <a name="_toc107323749"></a>ER Diagram
 `	`The shown diagram explains visualizes relation between the 2 entity [ Users,Files] illustrating the database structure
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.051.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.051.png)
 
 `					`Figure 11: ER diagram
 
@@ -878,7 +878,7 @@ There is 3 pages:
 ## <a name="_toc107323751"></a>Login Page
 `	`![Graphical user interface, application
 
-Description automatically generated](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.052.png)
+Description automatically generated](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.052.png)
 
 Simple Login panel where user enter his username and password to enter home page
 
@@ -893,7 +893,7 @@ Simple Login panel where user enter his username and password to enter home page
 
 ![Graphical user interface, text, application
 
-Description automatically generated](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.053.png)
+Description automatically generated](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.053.png)
 
 
 
@@ -911,12 +911,12 @@ Description automatically generated](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711
 `	`Following diagram explain an abstract view of how front end communicate with server and how encryption and decryption works
 
 ## <a name="_toc107323754"></a>Encryption and Decryption Diagram
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.027.jpeg)*Figure 12: Abstract view of front-end encryption and decryption*
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.054.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.027.jpeg)*Figure 12: Abstract view of front-end encryption and decryption*
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.054.png)
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.056.jpeg)*Figure 13: Encryption-Decryption Process*
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.056.jpeg)*Figure 13: Encryption-Decryption Process*
 
-![](Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.055.png)
+![](images/images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.055.png)
 
 
 
@@ -1715,4 +1715,3 @@ async function decryptAndDownload\_Unzipped() {
 # my-repo
 Secure end-to-end Storage-as-a-system
 >>>>>>> origin/main
-

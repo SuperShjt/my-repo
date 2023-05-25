@@ -650,7 +650,7 @@ we will add the uploading functionality in our index.php as well as upload.php:
 
 \>
 
-
+`
 
 Now the uploading functionality is working. If we try to upload a file, it will get added to the “*uploads/*” directory.
 

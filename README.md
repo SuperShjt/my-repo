@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-﻿![ASU | Home](images/./images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.001.png)
+﻿![ASU | Home](./images/Aspose.Words.e765f280-7fcf-45ac-a826-6d1711082731.001.png)
 
 <a name="_hlk107167839"></a>**CSE496: Graduation Project 2**
 

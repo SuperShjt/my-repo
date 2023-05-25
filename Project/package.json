@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@zip.js/zip.js": "^2.4.12",
+    "adm-zip": "^0.5.9",
+    "axios": "^0.27.2",
+    "browserify": "^17.0.0",
+    "crypto-js": "^4.1.1",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "vigenere-cipher": "^1.0.0"
+  },
+  "browser": {
+    "original-fs": false
+  }
+}

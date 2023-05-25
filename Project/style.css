@@ -1,0 +1,8 @@
+._inline {
+    font-weight: bold;
+    display: inline;
+}
+
+.download-file:active {
+    color: red;
+}
